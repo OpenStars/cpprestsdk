@@ -239,9 +239,9 @@ endfunction()
 add_subdirectory(src)
 
 if(BUILD_TESTS)
-  add_subdirectory(tests)
+##//  add_subdirectory(tests)
 endif()
 
 if(BUILD_SAMPLES)
-  add_subdirectory(samples)
+  ##//add_subdirectory(samples)
 endif()
